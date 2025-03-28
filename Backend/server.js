@@ -248,7 +248,7 @@ app.use((err, req, res, next) => {
 // ✅ Start Server with Error Handling
 app
   .listen(port, "0.0.0.0", () => {
-    console.log(`✅ Server running on http://192.168.0.105:${port}`);
+    console.log(`✅ Server running on http://192.168.220.178:${port}`);
   })
   .on("error", (err) => {
     if (err.code === "EADDRINUSE") {

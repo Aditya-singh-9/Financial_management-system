@@ -86,7 +86,7 @@ const Login = () => {
                 <Input 
                   id="email" 
                   type="email" 
-                  placeholder="your@email.com" 
+                  placeholder="your@gmail.com" 
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
@@ -102,7 +102,7 @@ const Login = () => {
                 <Input 
                   id="password" 
                   type="password" 
-                  placeholder="••••••••" 
+                  placeholder="         " 
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required

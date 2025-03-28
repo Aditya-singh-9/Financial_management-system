@@ -44,7 +44,7 @@ interface PaymentDetails {
 // In a production environment, order creation should happen on the server
 export const RazorpayService = {
   // For demo purposes, we're using a placeholder key - in real app, use actual key
-  key: 'rzp_test_yourKeyHere',
+  key: 'RCYnCDxZS405bD8FaIFhJ4In',
   
   // Load the Razorpay SDK dynamically
   loadSDK: (): Promise<boolean> => {

@@ -6,7 +6,7 @@ export const client = new Client();
 
 client
     .setEndpoint('https://cloud.appwrite.io/v1') // Your Appwrite Endpoint
-    .setProject('your-project-id'); // Your project ID
+    .setProject('67dea6b3003494de23ae'); // Your project ID
 
 // Initialize Appwrite account
 export const account = new Account(client);
